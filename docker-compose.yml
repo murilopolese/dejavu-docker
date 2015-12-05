@@ -1,0 +1,13 @@
+dejavu:
+  build: .
+  command: sh run.sh
+  volumes:
+    - ./data:/data
+  links:
+    - mysql
+mysql:
+  image: tutum/mysql
+  ports:
+    - 3306:3306
+  environment:
+    MYSQL_PASS: "password"
