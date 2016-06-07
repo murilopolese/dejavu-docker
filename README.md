@@ -1,3 +1,3 @@
 # dejavu
 
-Docker container for [dejavu](https://github.com/murilopolese/dejavu).
+Docker container for [dejavu](https://github.com/worldveil/dejavu).
